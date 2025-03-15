@@ -1,4 +1,4 @@
-const { FutureJS } = require('./future.js');
+import { FutureJS } from './future.js';
 
 
 
