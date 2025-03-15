@@ -59,4 +59,13 @@ window.onload = function() {
     FutureJS.updateHTMLVars();
 };
 
+module.exports = {
+    FutureJS: {
+        variables: {},
+        Condition: function(callback) { /* ... */ },
+        RegisterHTMLVar: function({id, value}) { /* ... */ },
+        updateHTMLVars: function() { /* ... */ },
+        changeVariableData: function({id, newData}) { /* ... */ }
+    }
+};
 
