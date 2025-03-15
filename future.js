@@ -54,7 +54,7 @@ export const FutureJS = {
 
 
 FutureJS["RegisterHTMLVar"]({id: "Text", value: "Acesta este un text"})
-
+FutureJS.RegisterHTMLVar({ id: "dadad", value: "This is a new text" });
 window.onload = function() {
     FutureJS.updateHTMLVars();
 };
