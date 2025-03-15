@@ -12,7 +12,7 @@
     !!!! Daca ai acest cod de la un prieten, firma sau alta sursa neautorizata, te rugam sa ne raportezi si vei primi o licenta de folosire gratis !!!!
 */
 
-var FutureJS = {
+export const FutureJS = {
     variables: {},
     
     Condition: function(callback) {
@@ -59,13 +59,5 @@ window.onload = function() {
     FutureJS.updateHTMLVars();
 };
 
-module.exports = {
-    FutureJS: {
-        variables: {},
-        Condition: function(callback) { /* ... */ },
-        RegisterHTMLVar: function({id, value}) { /* ... */ },
-        updateHTMLVars: function() { /* ... */ },
-        changeVariableData: function({id, newData}) { /* ... */ }
-    }
-};
+
 
